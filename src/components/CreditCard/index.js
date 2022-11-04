@@ -46,6 +46,7 @@ const CreditCard = () => {
             value={cardNum}
             onChange={onChangeCardNum}
             placeholder="Card Number"
+            maxLength="16"
           />
           <InputField
             type="text"
